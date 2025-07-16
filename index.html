@@ -1,17 +1,17 @@
-l>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>DavidDupe</title>
+  <title>FrostMC</title>
   <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: 'Arial', sans-serif;
-      color: #fff;
-      background-color: #000;
+      color: #e0f7ff;
+      background-color: #001f2d;
       overflow-x: hidden;
     }
 
@@ -23,41 +23,43 @@ l>
     }
 
     header {
-      background-color: rgba(20, 0, 0, 0.85);
+      background-color: rgba(0, 40, 70, 0.85);
       padding: 25px;
       text-align: center;
-      border-bottom: 3px solid #ff3333;
+      border-bottom: 3px solid #33ccff;
     }
 
     header h1 {
       font-size: 3em;
       margin: 0;
-      color: #ff3333;
+      color: #33ccff;
+      text-shadow: 0 0 5px #66d9ff;
     }
 
     nav {
-      background-color: rgba(10, 0, 0, 0.85);
+      background-color: rgba(0, 30, 50, 0.85);
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
     }
 
     nav a {
-      color: white;
+      color: #cceeff;
       text-decoration: none;
       padding: 14px 20px;
       transition: 0.3s;
     }
 
     nav a:hover {
-      background-color: #ff3333;
-      color: black;
-      box-shadow: 0 0 15px #ff3333;
+      background-color: #33ccff;
+      color: #001f2d;
+      box-shadow: 0 0 15px #33ccff;
+      border-radius: 6px;
     }
 
     .btn {
-      background-color: #ff3333;
-      color: black;
+      background-color: #33ccff;
+      color: #001f2d;
       padding: 12px 25px;
       border: none;
       cursor: pointer;
@@ -66,20 +68,23 @@ l>
       border-radius: 8px;
       transition: 0.3s ease-in-out;
       box-shadow: 0 0 0px transparent;
+      display: inline-block;
+      margin: 5px;
     }
 
     .btn:hover {
-      background-color: #cc0000;
-      box-shadow: 0 0 20px #ff3333, 0 0 30px #cc0000;
-      color: white;
+      background-color: #1a99cc;
+      box-shadow: 0 0 20px #33ccff, 0 0 30px #1a99cc;
+      color: #e0f7ff;
     }
 
     .container {
       padding: 30px 20px;
       text-align: center;
-      background-color: rgba(0, 0, 0, 0.5);
-      margin: 20px;
+      background-color: rgba(0, 20, 40, 0.6);
+      margin: 20px auto;
       border-radius: 10px;
+      max-width: 800px;
       backdrop-filter: blur(5px);
     }
 
@@ -89,15 +94,16 @@ l>
     }
 
     ul li::before {
-      content: "🔹 ";
+      content: "❄️ ";
     }
 
     footer {
       text-align: center;
       padding: 15px;
-      background: rgba(10, 0, 0, 0.85);
-      border-top: 2px solid #ff3333;
+      background: rgba(0, 30, 50, 0.85);
+      border-top: 2px solid #33ccff;
       font-size: 0.9em;
+      color: #a0dfff;
     }
   </style>
 </head>
@@ -105,10 +111,10 @@ l>
   <div id="tsparticles"></div>
 
   <header>
-    <h1>DavidDupe</h1>
-    <p>Server IP: <strong>daviddupe.minehut.gg</strong></p>
-    <a class="btn" href="https://fmalematser.github.io/daviddupestore" target="_blank">Visit Store</a>
-    <a class="btn" href="https://discord.gg/EgdmQXm2" target="_blank">Join Discord</a>
+    <h1>FrostMC</h1>
+    <p>Server IP: <strong>frostmc.pro</strong></p>
+    <a class="btn" href="https://frostmc.pro/store" target="_blank">Visit Store</a>
+    <a class="btn" href="https://discord.gg/frostmc" target="_blank">Join Discord</a>
   </header>
 
   <nav>
@@ -120,46 +126,46 @@ l>
   </nav>
 
   <div class="container" id="about">
-    <h2>About DavidDupe</h2>
-    <p>Welcome to DavidDupe — Anarchy Dupe Server with full PvP and no limits!</p>
+    <h2>About FrostMC</h2>
+    <p>Welcome to FrostMC — A hardcore Anarchy server with no rules and full PvP freedom!</p>
     <ul>
-      <li>Dupe-friendly survival</li>
-      <li>Lag-free gameplay</li>
-      <li>Active Discord & giveaways</li>
+      <li>True anarchy gameplay — no restrictions</li>
+      <li>Minimal lag for smooth battles</li>
+      <li>Active community and frequent events</li>
     </ul>
-    <p>Join now at <strong>daviddupe.minehut.gg</strong>!</p>
+    <p>Join now at <strong>frostmc.pro</strong>!</p>
   </div>
 
   <div class="container" id="rules">
     <h2>Server Rules</h2>
     <ul style="text-align:left; display:inline-block;">
-      <li>No crashing or lag machines</li>
-      <li>No real-world threats</li>
-      <li>No doxxing or harassment</li>
-      <li>Everything else is allowed — it's anarchy!</li>
+      <li>No hacking or client modifications</li>
+      <li>No real-world threats or harassment</li>
+      <li>No advertising other servers</li>
+      <li>Everything else is allowed — it’s true anarchy!</li>
     </ul>
   </div>
 
   <div class="container" id="vote">
     <h2>Vote for Rewards</h2>
-    <p>Voting helps us grow! Earn crate keys and coins for every vote.</p>
-    <a class="btn" href="https://minecraft-mp.com/servers/daviddupe" target="_blank">Vote Now</a>
+    <p>Help FrostMC grow by voting! Earn keys and coins for every vote.</p>
+    <a class="btn" href="https://minecraft-mp.com/servers/frostmc" target="_blank">Vote Now</a>
   </div>
 
   <div class="container" id="staff">
     <h2>Staff Applications</h2>
-    <p>Want to help manage DavidDupe? Apply today.</p>
-    <a class="btn" href="https://discord.gg/EgdmQXm2" target="_blank">Apply via Discord</a>
+    <p>Interested in helping manage FrostMC? Apply via our Discord.</p>
+    <a class="btn" href="https://discord.gg/frostmc" target="_blank">Apply via Discord</a>
   </div>
 
   <div class="container" id="contact">
     <h2>Join the Community</h2>
-    <p>Need help or want to talk to other players?</p>
-    <a class="btn" href="https://discord.gg/yourdiscordinvite" target="_blank">Join Discord</a>
+    <p>Need help or want to chat with other players?</p>
+    <a class="btn" href="https://discord.gg/frostmc" target="_blank">Join Discord</a>
   </div>
 
   <footer>
-    <p>&copy; 2025 DavidDupe. Not affiliated with Mojang. A player-run server.</p>
+    <p>&copy; 2025 FrostMC. Not affiliated with Mojang. A player-run anarchy server.</p>
   </footer>
 
   <script>
@@ -167,14 +173,14 @@ l>
       fpsLimit: 60,
       particles: {
         number: { value: 60 },
-        color: { value: "#ff3333" },
+        color: { value: "#33ccff" },
         shape: { type: "circle" },
         opacity: { value: 0.5 },
         size: { value: { min: 1, max: 3 } },
         links: {
           enable: true,
           distance: 120,
-          color: "#ff3333",
+          color: "#33ccff",
           opacity: 0.4,
           width: 1
         },
